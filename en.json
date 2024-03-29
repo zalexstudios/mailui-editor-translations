@@ -1,4 +1,9 @@
 {
+  "drop.indicator.label": "rop it here",
+
+  "save.buttons.save": "Save",
+  "save.buttons.saving": "Saving",
+
   "section.empty.alt": "No section",
   "section.empty.title": "Get Started by Adding New Section",
   "section.empty.desc": "Start designing by adding Section, Columns (with Container) and Elements",
@@ -15,6 +20,13 @@
   "control.buttons.treeLayout": "Tree layout",
   "control.buttons.undo": "Undo Changes",
   "control.buttons.redo": "Redo Changes",
+  "control.buttons.moveTop": "Move To Top",
+  "control.buttons.moveBottom": "Move To Bottom",
+  "control.buttons.addBefore": "Add Before",
+  "control.buttons.addAfter": "Add After",
+  "control.buttons.copyStyle": "Copy Style",
+  "control.buttons.pasteStyle": "Paste Style",
+  "control.buttons.preview": "Preview",
 
   "dropzone.label": "Drop it here",
 
@@ -46,7 +58,7 @@
   "toolbarTab.advanced.visibilityAndPosition": "Visibility & Position",
 
   "toolbar.title": "{name} Settings",
-  "toolbar.buttons.close": "Close sidebar",
+  "toolbar.buttons.close": "Close",
 
   "toolbar.columns.title": "Available column",
   "toolbar.columns.tooltip": "Drag it to <br />the content area",
@@ -68,6 +80,12 @@
   "toolbar.photos.tabs.uploadImages": "Uploaded",
   "toolbar.photos.tabs.stockImages": "Gallery",
   "toolbar.photos.tabs.uploader": "Uploader",
+
+  "toolbar.library.title": "Library",
+  "toolbar.library.tabs.saved": "Saved",
+  "toolbar.library.tabs.stock": "Library",
+  "toolbar.library.empty": "No Data Available",
+  "toolbar.library.filter.category.label": "Select Category",
 
 
   "tools.button.link": "Button Link",
@@ -122,6 +140,9 @@
   "tools.text.bg": "Text Background",
   "tools.text.link": "Text Link",
 
+  "tools.card": "Card Background",
+  "tools.card.wrapperBg": "Wrapper Background",
+
   "property.bg.tabs.color": "Color",
   "property.bg.tabs.gradient": "Gradient",
   "property.bg.tabs.image": "Image",
@@ -170,6 +191,7 @@
   "property.buttonAndContent.size.label": "Text Size",
   "property.buttonAndContent.sizes.normal": "Normal",
   "property.buttonAndContent.sizes.full": "Full Width",
+  "property.buttonAndContent.preDesign.label": "Pre Designed Buttons",
 
   "property.column.size.label": "Select Column Size",
   "property.column.alignment.label": "Column Alignment",
@@ -191,7 +213,10 @@
 
   "property.globalColors.empty": "No Colors",
   "property.globalColors.color.label": "Color",
-  "property.globalColors.buttons.add": "Add New Color",
+  "property.globalColors.buttons.add": "Add Color",
+  "property.globalColors.buttons.editColors": "Add Colors",
+  "property.globalColors.buttons.addPalette": "Add Color Palette",
+  "property.globalColors.buttons.deletePalette": "Delete Palette",
 
   "property.googleFonts.label": "Font Family",
   "property.googleFonts.weight.label": "Select Font Weight",
@@ -246,7 +271,7 @@
   "property.rounded.title": "Rounded Corner",
   "property.rounded.label": "Border Radius",
 
-  "property.row.label": "Vertical Alignment",
+  "property.row.label": "Columns Alignment",
 
   "property.shadow.tabs.general": "Shadow",
   "property.shadow.tabs.advanced": "Advanced",
@@ -304,7 +329,9 @@
 
 
   "inputs.color.picker.tooltip": "Choose Color",
-  "inputs.color.buttons.globalColor": "Global Colors",
+  "inputs.color.buttons.input": "Color",
+  "inputs.color.buttons.recent": "Recent",
+  "inputs.color.buttons.globalColor": "Global",
   "inputs.color.buttons.empty": "No Color",
   "inputs.color.buttons.transparent": "Transparent",
 
@@ -343,19 +370,33 @@
   "inputs.alignment.right": "Right",
   "inputs.alignment.justify": "Justify",
 
+  "inputs.vhAlignment.topLeft": "Top Left",
+  "inputs.vhAlignment.topCenter": "Top Center",
+  "inputs.vhAlignment.topRight": "Top Right",
+  "inputs.vhAlignment.middleLeft": "Middle Left",
+  "inputs.vhAlignment.middleCenter": "Center",
+  "inputs.vhAlignment.middleRight": "Middle Right",
+  "inputs.vhAlignment.bottomLeft": "Bottom Left",
+  "inputs.vhAlignment.bottomCenter": "Bottom center",
+  "inputs.vhAlignment.bottomRight": "BottomRight",
+
+  "inputs.itemsAlignment.left": "Left",
+  "inputs.itemsAlignment.center": "Center",
+  "inputs.itemsAlignment.right": "Right",
+
   "inputs.border.width.label": "Border Width",
   "inputs.border.color.label": "Border Color",
   "inputs.border.style.label": "Border Style",
 
   "inputs.rounded.label": "All Corner",
-  "inputs.rounded.topLeftRight.label": "Top Left Right Corner",
-  "inputs.rounded.bottomLeftRight.label": "Bottom Left Right Corner",
+  "inputs.rounded.topLeftRight.label": "Top Corner's",
+  "inputs.rounded.bottomLeftRight.label": "Bottom Corner's",
   "inputs.rounded.topLeft.label": "Top Left Corner",
   "inputs.rounded.topRight.label": "Top Right Corner",
   "inputs.rounded.bottomLeft.label": "Bottom Left Corner",
   "inputs.rounded.bottomRight.label": "Bottom Right Corner",
 
-  "inputs.shadow.label": "Shadow",
+  "inputs.shadow.label": "Choose Effects",
   "inputs.shadow.xAxis.label": "Shadow Offset Horizontal",
   "inputs.shadow.yAxis.label": "Shadow Offset Vertical",
   "inputs.shadow.blur.label": "Shadow Blur Radius",
@@ -381,16 +422,24 @@
   "inputs.fontWeight.extra": "Extra 800",
   "inputs.fontWeight.black": "Black 900",
 
+  "inputs.fontStyle.italic": "Italic",
+
+  "inputs.list.unordered": "Unordered List",
+  "inputs.list.ordered": "Ordered List",
+
   "inputs.padding.top": "Top",
   "inputs.padding.bottom": "Bottom",
   "inputs.padding.left": "Left",
   "inputs.padding.right": "Right",
 
+  "inputs.textFormat.subscript": "Subscript",
+  "inputs.textFormat.superscript": "Superscript",
+
   "inputs.textDecoration.position.label": "Text Line Position",
   "inputs.textDecoration.positions.none": "None",
   "inputs.textDecoration.positions.underline": "Underline",
   "inputs.textDecoration.positions.overline": "Overline",
-  "inputs.textDecoration.positions.through": "Through",
+  "inputs.textDecoration.positions.through": "Strikethrough",
   "inputs.textDecoration.style.label": "Text Line Style",
   "inputs.textDecoration.styles.none": "None",
   "inputs.textDecoration.styles.solid": "Solid",
@@ -405,6 +454,7 @@
   "inputs.textShadow.yAxis.label": "Shadow Offset Vertical",
   "inputs.textShadow.blur.label": "Shadow Blur Radius",
   "inputs.textShadow.color.label": "Shadow Color",
+  "property.textShadow.preDesign.label": "Pre Designed Effects",
 
   "inputs.textSpacing.label": "Letter Spacing",
   "inputs.textSpacing.lineHeight.label": "Line Height",
