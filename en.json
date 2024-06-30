@@ -1,5 +1,5 @@
 {
-  "drop.indicator.label": "rop it here",
+  "drop.indicator.label": "Drop it here",
 
   "save.buttons.save": "Save",
   "save.buttons.saving": "Saving",
@@ -13,7 +13,7 @@
   "element.empty.buttons.add": "Drag Element",
 
   "control.buttons.edit": "Edit",
-  "control.buttons.save": "Save To Library",
+  "control.buttons.saveToLibrary": "Save To Library",
   "control.buttons.clone": "Clone",
   "control.buttons.delete": "Delete {type}",
   "control.buttons.drag": "Move",
@@ -27,6 +27,7 @@
   "control.buttons.copyStyle": "Copy Style",
   "control.buttons.pasteStyle": "Paste Style",
   "control.buttons.preview": "Preview",
+  "control.buttons.settings": "Settings",
 
   "dropzone.label": "Drop it here",
 
@@ -59,6 +60,9 @@
 
   "toolbar.title": "{name} Settings",
   "toolbar.buttons.close": "Close",
+  "toolbar.designTabs.general": "GENERAL",
+  "toolbar.designTabs.styles": "STYLES",
+  "toolbar.designTabs.advanced": "ADVANCED",
 
   "toolbar.columns.title": "Available column",
   "toolbar.columns.tooltip": "Drag it to <br />the content area",
@@ -83,7 +87,7 @@
 
   "toolbar.library.title": "Library",
   "toolbar.library.tabs.saved": "Saved",
-  "toolbar.library.tabs.stock": "Library",
+  "toolbar.library.tabs.stock": "Default Library",
   "toolbar.library.empty": "No Data Available",
   "toolbar.library.filter.category.label": "Select Category",
 
@@ -117,6 +121,14 @@
   "tools.image.filter": "Apply Filters",
   "tools.image.widthHeight": "Image Width & Height",
   "tools.image.bg": "Image Background",
+
+  "tools.countdown": "Countdown Options",
+  "tools.countdown.link": "Countdown Link",
+  "tools.countdown.widthHeight": "Countdown Width & Height",
+  "tools.countdown.bg": "Countdown Background",
+  "tools.countdown.numberStyles": "Number Styles",
+  "tools.countdown.labelStyles": "Label Styles",
+  "tools.countdown.separatorStyles": "Separator Styles",
 
   "tools.row.columns": "Columns",
   "tools.row.options": "Row Options",
@@ -175,6 +187,7 @@
 
   "property.opacity.label": "Transparency",
 
+  "property.border.label": "Border",
   "property.border.all": "All Side",
   "property.border.topBottom": "Top Bottom",
   "property.border.leftRight": "Left Right",
@@ -240,6 +253,7 @@
   "property.icons.direction.label": "Direction",
   "property.icons.padding.label": "Icon Padding",
   "property.icons.rounded.label": "Icon Border Radius",
+  "property.icons.border.label": "Icon Border",
 
   "property.imageFilter.hue.label": "Hue Rotate",
   "property.imageFilter.saturation.label": "Saturation",
@@ -253,6 +267,15 @@
 
   "property.image.alt.label": "Alternative Text",
   "property.image.alignment.label": "Alignment",
+
+  "property.countdown.endTime.label": "End Time",
+  "property.countdown.alignment.label": "Alignment",
+  "property.countdown.separator.label": "Separator",
+  "property.countdown.format.label": "Choose Format",
+  "property.countdown.formatTabs.dhms": "Days : Hours : Minutes : Seconds",
+  "property.countdown.formatTabs.hms": "Hours : Minutes : Seconds",
+  "property.countdown.formatTabs.ms": "Minutes : Seconds",
+  "property.countdown.backgroundColor.label": "Background Color",
 
   "property.lineWidthAndHeight.width.label": "Width",
   "property.lineWidthAndHeight.height.label": "Height",
@@ -299,6 +322,7 @@
   "property.socialIcon.align.label": "Horizontal Align",
   "property.socialIcon.direction.label": "Direction",
   "property.socialIcon.padding.label": "Icon Padding",
+  "property.socialIcon.border.label": "Icon Border",
   "property.socialIcon.rounded.label": "Icon Border Radius",
 
   "property.spacer.height.label": "Height",
@@ -335,6 +359,7 @@
   "inputs.color.buttons.empty": "No Color",
   "inputs.color.buttons.transparent": "Transparent",
 
+  "inputs.background.fallbackColor.Label": "Fallback Color",
   "inputs.gradient.label": "Choose Colors",
   "inputs.gradient.buttons.add": "Add Gradient",
   "inputs.gradient.buttons.addColor": "Add New Color",
@@ -358,9 +383,11 @@
   "inputs.gradient.types.radial.direction.bottom": "Bottom",
   "inputs.gradient.types.radial.direction.bottomLeft": "Bottom Left",
 
-  "inputs.imageUpload.label": "Drag & drop here, or click to select",
+  "inputs.imageUpload.label": "Drag or click here to upload {type}.",
   "inputs.imageUpload.uploading": "Uploading...",
   "inputs.imageUpload.url": "URL",
+  "inputs.imageUpload.dropActive": "Drop Here",
+  "inputs.imageUpload.sizeLimit": "Image size must be less then 5 MB",
   "inputs.imageUpload.authAlert": "Sign Up or Login to Upload Or insert a URL below",
 
   "inputs.editor.buttons.mergeTag": "Merge Tags",
@@ -463,5 +490,21 @@
   "inputs.textTransform.none": "None",
   "inputs.textTransform.uppercase": "Uppercase",
   "inputs.textTransform.lowercase": "Lowercase",
-  "inputs.textTransform.capitalize": "Capitalize"
+  "inputs.textTransform.capitalize": "Capitalize",
+
+  "inputs.links.add": "Add Link",
+  "inputs.links.remove": "Remove Link",
+  "inputs.links.cancel": "Cancel",
+  "inputs.links.confirm": "Add",
+  "inputs.links.tabs.web": "WEB LINK",
+  "inputs.links.tabs.tel": "PHONE",
+  "inputs.links.tabs.email": "EMAIL",
+  "inputs.links.email.subject.label": "Subject",
+  "inputs.links.email.body.label": "Email Body...",
+
+  "inputs.mergeLinks.label": "Merge Tags",
+  "inputs.mergeLinks.emptyMessage": "No Tag Added",
+
+  "inputs.specialLinks.label": "Insert Special Link",
+  "inputs.specialLinks.emptyMessage": "No Links Added"
 }
