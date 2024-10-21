@@ -28,6 +28,9 @@
   "control.buttons.pasteStyle": "Paste Style",
   "control.buttons.preview": "Preview",
   "control.buttons.settings": "Settings",
+  "control.buttons.resetFrameScale": "Reset Frame Size",
+  "control.buttons.html": "HTML",
+  "control.buttons.htmlAmp": "HTML",
 
   "dropzone.label": "Drop it here",
 
@@ -60,6 +63,9 @@
 
   "toolbar.title": "{name} Settings",
   "toolbar.buttons.close": "Close",
+  "toolbar.buttons.dockPopup": "Dock Popup",
+  "toolbar.buttons.dockLeft": "Dock Left",
+  "toolbar.buttons.dockRight": "Dock Right",
   "toolbar.designTabs.general": "GENERAL",
   "toolbar.designTabs.styles": "STYLES",
   "toolbar.designTabs.advanced": "ADVANCED",
@@ -70,6 +76,7 @@
 
   "toolbar.elements.tooltip": "Drag it to <br />the content area",
   "toolbar.elements.buttons.close": "Got it",
+  "toolbar.elements.amp.tooltip": "AMP Block",
 
   "toolbar.globalStyle.tabs.styles": "STYLES",
   "toolbar.globalStyle.tabs.colors": "COLORS",
@@ -122,6 +129,10 @@
   "tools.image.widthHeight": "Image Width & Height",
   "tools.image.bg": "Image Background",
 
+  "tools.video": "Video Options",
+  "tools.video.widthHeight": "Video Width & Height",
+  "tools.video.bg": "Video Background",
+
   "tools.countdown": "Countdown Options",
   "tools.countdown.link": "Countdown Link",
   "tools.countdown.widthHeight": "Countdown Width & Height",
@@ -136,12 +147,21 @@
 
   "tools.section": "Section Background",
   "tools.section.wrapperBg": "Section Wrapper Background",
+  "tools.section.frame": "Section Frames",
   "tools.section.widthHeight": "Section Width & Height",
 
   "tools.socialIcon": "Social Icon List",
   "tools.socialIcon.styles": "Social Icon Style",
   "tools.socialIcon.bg": "Social Icon Background",
   "tools.socialIcon.wrapperBg": "Wrapper Background",
+
+  "tools.manu": "Manu Links",
+  "tools.manu.linkStyles": "Manu Link Text Style",
+  "tools.manu.linkOtherStyles": "Manu Link Style",
+  "tools.manu.separator": "Separator Style",
+  "tools.manu.linkBg": "Manu Link Background",
+  "tools.manu.bg": "Manu Background",
+  "tools.manu.wrapperBg": "Wrapper Background",
 
   "tools.spacer.height": "Spacer Height",
   "tools.spacer.bg": "Spacer Background",
@@ -151,9 +171,17 @@
   "tools.text.shadow": "Text Shadow",
   "tools.text.bg": "Text Background",
   "tools.text.link": "Text Link",
+  "tools.text.linkStyle": "Text Link Style",
 
   "tools.card": "Card Background",
   "tools.card.wrapperBg": "Wrapper Background",
+
+  "tools.carousel": "Carousel Slides",
+  "tools.carousel.configuration": "Slider Options",
+  "tools.carousel.previewsStyle": "Previews Style",
+  "tools.carousel.wrapperBg": "Wrapper Background",
+
+  "tools.displayCondition": "Display Condition",
 
   "property.bg.tabs.color": "Color",
   "property.bg.tabs.gradient": "Gradient",
@@ -185,7 +213,7 @@
   "property.bg.image.gradient.linear": "Linear Gradient",
   "property.bg.image.gradient.radial": "Radial Gradient",
 
-  "property.opacity.label": "Transparency",
+  "property.opacity.label": "Opacity",
 
   "property.border.label": "Border",
   "property.border.all": "All Side",
@@ -220,9 +248,10 @@
 
   "property.embedLink.label": "Link URL",
   "property.embedLink.target.label": "Open Link In",
-  "property.embedLink.targets.same": "Same Tab",
-  "property.embedLink.targets.blank": "New Tab",
-  "property.embedLink.targets.new": "New Window",
+  "property.embedLink.target.same": "Same Tab",
+  "property.embedLink.target.blank": "New Tab",
+  "property.embedLink.target.new": "New Window",
+  "property.embedLink.noLink": "No Link",
 
   "property.globalColors.empty": "No Colors",
   "property.globalColors.color.label": "Color",
@@ -256,7 +285,7 @@
   "property.icons.border.label": "Icon Border",
 
   "property.imageFilter.hue.label": "Hue Rotate",
-  "property.imageFilter.saturation.label": "Saturation",
+  "property.imageFilter.saturate.label": "Saturation",
   "property.imageFilter.brightness.label": "Brightness",
   "property.imageFilter.contrast.label": "Contrast",
   "property.imageFilter.sepia.label": "Sepia",
@@ -268,6 +297,22 @@
   "property.image.alt.label": "Alternative Text",
   "property.image.alignment.label": "Alignment",
 
+  "property.video.url.label": "Video URL",
+  "property.video.alignment.label": "Alignment",
+  "property.video.playIcon.label": "Select Play Icon",
+
+  "property.manu.label": "Manu Links",
+  "property.manu.empty": "No Link",
+  "property.manu.item.label": "Label",
+  "property.manu.buttons.add": "Add New Link",
+  "property.manu.gap.label": "Gap Between Icons",
+  "property.manu.align.label": "Horizontal Align",
+  "property.manu.direction.label": "Direction",
+  "property.manu.padding.label": "Link Padding",
+  "property.manu.border.label": "Link Border",
+  "property.manu.rounded.label": "Link Border Radius",
+  "property.manu.separator.label": "Separator Content",
+
   "property.countdown.endTime.label": "End Time",
   "property.countdown.alignment.label": "Alignment",
   "property.countdown.separator.label": "Separator",
@@ -276,6 +321,18 @@
   "property.countdown.formatTabs.hms": "Hours : Minutes : Seconds",
   "property.countdown.formatTabs.ms": "Minutes : Seconds",
   "property.countdown.backgroundColor.label": "Background Color",
+
+  "property.carousel.showPreviews.label": "Show Previews",
+  "property.carousel.autoplay.label": "Autoplay Slide",
+  "property.carousel.loop.label": "Loop",
+  "property.carousel.delay.label": "Slide Delay",
+  "property.carousel.previews.gap.label": "Gap Between Previews",
+  "property.carousel.previews.width.label": "Previews Width",
+  "property.carousel.previews.align.label": "Horizontal Align",
+  "property.carousel.buttons.add": "Add New Slide",
+  "property.carousel.empty": "No Slide",
+  "property.carousel.slide.empty": "No Image Selected",
+  "property.carousel.slide.label": "Slide {id}",
 
   "property.lineWidthAndHeight.width.label": "Width",
   "property.lineWidthAndHeight.height.label": "Height",
@@ -329,6 +386,12 @@
 
   "property.text.heading.label": "Heading Tag",
   "property.text.content.label": "Text",
+  "property.text.heading1.label": "This Is Heading 1",
+  "property.text.heading2.label": "This Is Heading 2",
+  "property.text.heading3.label": "This Is Heading 3",
+  "property.text.heading4.label": "Heading 4",
+  "property.text.heading5.label": "Heading 5",
+  "property.text.heading6.label": "Heading 6",
 
   "property.visibility.label": "Element Visibility",
   "property.visibility.visible": "Visible",
@@ -351,14 +414,39 @@
   "property.textStyle.size.label": "Text Size",
   "property.textStyle.alignment.label": "Text Alignment",
 
+  "property.displayCondition.conditions.label": "Select condition",
+  "property.displayCondition.buttons.add": "Add Condition",
+  "property.displayCondition.buttons.Hide": "Hide Condition",
+  "property.displayCondition.logic.label": "Display Only If",
+  "property.displayCondition.logic.tabs.is": "Match",
+  "property.displayCondition.logic.tabs.isNot": "Not Match",
+  "property.displayCondition.conditions.empty": "No Condition",
+
+  "property.frames.label": "Set Frame",
+  "property.frame.tabs.top": "Top Frames",
+  "property.frame.tabs.bottom": "Bottom Frames",
+  "property.frame.shape.tabs.top": "Top",
+  "property.frame.shape.tabs.bottom": "Bottom",
+  "property.frame.shape.tabs.corner": "Corner",
+  "property.frames.noFrame.label": "No Frame",
+  "property.frames.color.label": "Frame Color",
+  "property.frames.height.label": "Frame height",
+  "property.frames.alt.label": "Alternate Text",
+
+  "inputs.message.required": "The field is required",
+
+  "inputs.switch.on.label": "On",
+  "inputs.switch.off.label": "Off",
 
   "inputs.color.picker.tooltip": "Choose Color",
+  "inputs.color.text.tooltip": "Text Color",
   "inputs.color.buttons.input": "Color",
   "inputs.color.buttons.recent": "Recent",
   "inputs.color.buttons.globalColor": "Global",
   "inputs.color.buttons.empty": "No Color",
   "inputs.color.buttons.transparent": "Transparent",
 
+  "inputs.backgroundColor.picker.tooltip": "Background Color",
   "inputs.background.fallbackColor.Label": "Fallback Color",
   "inputs.gradient.label": "Choose Colors",
   "inputs.gradient.buttons.add": "Add Gradient",
@@ -389,6 +477,22 @@
   "inputs.imageUpload.dropActive": "Drop Here",
   "inputs.imageUpload.sizeLimit": "Image size must be less then 5 MB",
   "inputs.imageUpload.authAlert": "Sign Up or Login to Upload Or insert a URL below",
+  "inputs.imageUpload.buttons.delete": "Remove",
+  "inputs.imageUpload.buttons.edit": "Edit Image & Customize",
+
+  "inputs.imageCropper.label":  "Image Uploader",
+  "inputs.imageCropper.options.crop":  "Crop",
+  "inputs.imageCropper.options.rotate":  "Rotate",
+  "inputs.imageCropper.options.flipX":  "Flip Horizontal",
+  "inputs.imageCropper.options.flipY":  "Flip Vertical",
+  "inputs.imageCropper.options.aspect":  "Aspect",
+  "inputs.imageCropper.options.undo":  "Undo",
+  "inputs.imageCropper.options.redo":  "Redo",
+  "inputs.imageCropper.buttons.cancel":  "Cancel",
+  "inputs.imageCropper.buttons.edit":  "Edit Image",
+  "inputs.imageCropper.buttons.applyCrop":  "Apply Crop",
+  "inputs.imageCropper.buttons.upload":  "Upload",
+  "inputs.imageCropper.buttons.save":  "Save",
 
   "inputs.editor.buttons.mergeTag": "Merge Tags",
 
@@ -431,9 +535,9 @@
   "inputs.shadow.color.label": "Shadow Color",
 
   "inputs.font.label": "Font Family",
-  "inputs.font.placeholder": "Select font",
+  "inputs.font.placeholder": "Default",
   "inputs.font.weight.label": "Font Weight",
-  "inputs.font.weight.placeholder": "Select",
+  "inputs.font.weight.placeholder": "Default",
 
   "inputs.direction.xAxis": "Horizontal",
   "inputs.direction.yAxis": "Vertical",
@@ -449,6 +553,8 @@
   "inputs.fontWeight.extra": "Extra 800",
   "inputs.fontWeight.black": "Black 900",
 
+  "inputs.fontSize.label": "Font Style",
+  "inputs.fontStyle.normal": "Normal",
   "inputs.fontStyle.italic": "Italic",
 
   "inputs.list.unordered": "Unordered List",
@@ -496,15 +602,54 @@
   "inputs.links.remove": "Remove Link",
   "inputs.links.cancel": "Cancel",
   "inputs.links.confirm": "Add",
-  "inputs.links.tabs.web": "WEB LINK",
+  "inputs.links.tabs.none": "NONE",
+  "inputs.links.tabs.web": "WEB",
   "inputs.links.tabs.tel": "PHONE",
   "inputs.links.tabs.email": "EMAIL",
+  "inputs.links.email.label": "Email",
   "inputs.links.email.subject.label": "Subject",
-  "inputs.links.email.body.label": "Email Body...",
+  "inputs.links.email.body.label": "Email Body",
+  "inputs.links.tel.label": "Telephone / Mobile",
 
   "inputs.mergeLinks.label": "Merge Tags",
   "inputs.mergeLinks.emptyMessage": "No Tag Added",
 
   "inputs.specialLinks.label": "Insert Special Link",
-  "inputs.specialLinks.emptyMessage": "No Links Added"
+  "inputs.specialLinks.emptyMessage": "No Links Added",
+
+  "inputs.aiWriting.label": "Generate Content With AI",
+  "inputs.aiWriting.prompt.label": "Write your prompt here (Required)",
+  "inputs.aiWriting.prompt.message.required": "Write your prompt here (Required)",
+  "inputs.aiWriting.quickPrompt.label": "Quick Prompts",
+  "inputs.aiWriting.quickPrompt.improve": "Improve it",
+  "inputs.aiWriting.quickPrompt.rephrase": "Rephrase",
+  "inputs.aiWriting.quickPrompt.lengthen": "Lengthen",
+  "inputs.aiWriting.quickPrompt.shorten": "Shorten",
+  "inputs.aiWriting.quickPrompt.simplify": "Simplify",
+  "inputs.aiWriting.quickPrompt.paraphrase": "Paraphrase",
+  "inputs.aiWriting.quickPrompt.spellingGrammar": "Fix Spelling & Grammar",
+  "inputs.aiWriting.voiceTones.label": "Voice and Tones Settings",
+  "inputs.aiWriting.voiceTones.neutral": "Neutral",
+  "inputs.aiWriting.voiceTones.formal": "Formal",
+  "inputs.aiWriting.voiceTones.informal": "Informal",
+  "inputs.aiWriting.voiceTones.friendly": "Friendly",
+  "inputs.aiWriting.voiceTones.professional": "Professional",
+  "inputs.aiWriting.voiceTones.humorous": "Humorous",
+  "inputs.aiWriting.voiceTones.serious": "Serious",
+  "inputs.aiWriting.voiceTones.inspirational": "Inspirational",
+  "inputs.aiWriting.voiceTones.persuasive": "Persuasive",
+  "inputs.aiWriting.voiceTones.empathetic": "Empathetic",
+  "inputs.aiWriting.voiceTones.technical": "Technical",
+  "inputs.aiWriting.voiceTones.narrative": "Narrative",
+  "inputs.aiWriting.voiceTones.marketing": "Marketing",
+  "inputs.aiWriting.voiceTones.authoritative": "Authoritative",
+  "inputs.aiWriting.voiceTones.playful": "Playful",
+  "inputs.aiWriting.buttons.writeWithAi": "Magic Write",
+  "inputs.aiWriting.buttons.insert": "Insert",
+  "inputs.aiWriting.buttons.generate": "Generate",
+  "inputs.aiWriting.buttons.voiceTones": "Voice and Tones Settings",
+  "inputs.aiWriting.buttons.showVoiceTones": "Show Voice and Tones Settings",
+  "inputs.aiWriting.buttons.hideVoiceTones": "Hide Voice and Tones Settings",
+  "inputs.aiWriting.buttons.customPrompt": "Generate By Custom Prompt",
+  "inputs.aiWriting.buttons.done": "Done"
 }
