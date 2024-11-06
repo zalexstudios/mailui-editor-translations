@@ -204,6 +204,8 @@
 
   "tools.displayCondition": "Display Condition",
 
+  "tools.mergeTagsLoop": "Merge Tags Loop",
+
   "property.bg.tabs.color": "Color",
   "property.bg.tabs.gradient": "Gradient",
   "property.bg.tabs.image": "Image",
@@ -218,6 +220,8 @@
   "property.bg.image.size.auto": "Auto",
   "property.bg.image.size.cover": "Cover",
   "property.bg.image.size.contain": "Contain",
+  "property.bg.image.size.default": "Existing Size",
+  "property.bg.image.size.custom": "Custom Size",
   "property.bg.image.repeat.label": "Background Image Repeat",
   "property.bg.image.repeat": "Repeat",
   "property.bg.image.noRepeat": "No Repeat",
@@ -317,12 +321,15 @@
 
   "property.image.alt.label": "Alternative Text",
   "property.image.alignment.label": "Alignment",
+  "property.image.tabs.uploadImages": "Your Photos",
+  "property.image.tabs.upload": "Upload",
+  "property.image.tabs.stockImages": "Unsplash",
 
   "property.video.url.label": "Video URL",
   "property.video.alignment.label": "Alignment",
   "property.video.playIcon.label": "Select Play Icon",
 
-  "property.menu.label": "Manu Links",
+  "property.menu.label": "Menu Links",
   "property.menu.empty": "No Link",
   "property.menu.item.label": "Label",
   "property.menu.buttons.add": "Add New Link",
@@ -394,6 +401,7 @@
   "property.socialIcon.targets.blank": "New Tab",
   "property.socialIcon.targets.new": "New Window",
   "property.socialIcon.allIcons.label": "All Social Icons",
+  "property.socialIcon.clipContent.label": "Clip Content",
 
   "property.socialIcon.size.label": "Icon Size",
   "property.socialIcon.gap.label": "Gap Between Icons",
@@ -443,6 +451,11 @@
   "property.displayCondition.logic.tabs.isNot": "Not Match",
   "property.displayCondition.conditions.empty": "No Condition",
 
+  "property.mergeTagsLoop.none": "None",
+  "property.mergeTagsLoop.label": "Select Group",
+  "property.mergeTagsLoop.roles": "Select Rule",
+  "property.mergeTagsLoop.empty": "No Rule Available",
+
   "property.frames.label": "Set Frame",
   "property.frame.tabs.top": "Top Frames",
   "property.frame.tabs.bottom": "Bottom Frames",
@@ -455,6 +468,7 @@
   "property.frames.alt.label": "Alternate Text",
 
   "inputs.message.required": "The field is required",
+  "inputs.message.minLength": "The field must have at least {length} characters.",
 
   "inputs.switch.on.label": "On",
   "inputs.switch.off.label": "Off",
